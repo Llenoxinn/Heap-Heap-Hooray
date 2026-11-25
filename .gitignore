@@ -1,0 +1,13 @@
+# AI / agent instruction files
+claude.md
+CLAUDE.md
+agents.md
+AGENTS.md
+
+# Compiled binaries and object files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
