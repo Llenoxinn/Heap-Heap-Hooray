@@ -15,6 +15,7 @@ This repository covers heap fundamentals, implementations, and related algorithm
   - `display()` — Prints the current heap size and array contents.
 - [`Heap-Implementation-OPTIMIZED.cpp`](Heap-Implementation-OPTIMIZED.cpp) — Expanded **1-indexed Min-Heap** implementation refactoring percolation into `heapifyUp` and `minHeapify` helpers and adding `getMin`, `extractMin`, `decreaseKey`, `isEmpty`, `getSize`, and `keyAt` *(work in progress)*.
 - [`heapSort.cpp`](heapSort.cpp) — **0-indexed Heap Sort** implementation featuring `maxheapify`, `minheapify`, and `decHeapSort` *(work in progress)*.
+- [`heaps-dont-lie/`](heaps-dont-lie/README.md) — **DSA & LeetCode Heap Playbook**: 34 Easy, Medium, and Hard heap problems with pattern recognition guides, step-by-step traces, and from-scratch C++ implementations (no globals, `const`, `static`, or `std::priority_queue`).
 
 ## Complexity Reference (Binary Heap)
 
@@ -51,5 +52,5 @@ g++ -std=c++17 -Wall -Wextra Heap-Implementation.cpp -o Heap-Implementation.exe
 - [x] Array-based 1-indexed Min-Heap (`insert`, `remove`)
 - [ ] Extended Min-Heap operations (`getMin`, `extractMin`, `decreaseKey`)
 - [ ] Max-Heap implementation
-- [ ] Bottom-up heap construction (`heapify` in $O(n)$) & Heap Sort
-- [ ] Priority Queue applications & `std::priority_queue`
+- [x] Bottom-up heap construction (`heapify` in $O(n)$) & Heap Sort
+- [x] 34 DSA & LeetCode Heap Problems ([`heaps-dont-lie/`](heaps-dont-lie/README.md))
