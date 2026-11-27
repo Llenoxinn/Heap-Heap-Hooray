@@ -54,3 +54,12 @@ g++ -std=c++17 -Wall -Wextra Heap-Implementation.cpp -o Heap-Implementation.exe
 - [ ] Max-Heap implementation
 - [x] Bottom-up heap construction (`heapify` in $O(n)$) & Heap Sort
 - [x] 34 DSA & LeetCode Heap Problems ([`heaps-dont-lie/`](heaps-dont-lie/README.md))
+
+## Related Repositories
+
+Part of a connected Data Structures & Algorithms study series:
+
+| Repository | Topic | Key Connections |
+| --- | --- | --- |
+| [**Data-Structures-Machine-Problems**](https://github.com/Llenoxinn/Data-Structures-Machine-Problems) | Coursework MPs, Assignments & 2nd LE Reviewer | See [**MP 13: Min-Heap Array Validator**](https://github.com/Llenoxinn/Data-Structures-Machine-Problems/tree/main/MP%2013) and the [Topics/Heaps guide](https://github.com/Llenoxinn/Data-Structures-Machine-Problems/tree/main/Topics/Heaps) |
+| [**HashbyHash**](https://github.com/Llenoxinn/HashbyHash) | Hashing & Hash Tables | Companion topic notes (`hashnotes.md`), BST-chained `HashTable` (`hash.cpp`), and the [`hashuh/`](https://github.com/Llenoxinn/HashbyHash/tree/main/hashuh) playbook modeled after `heaps-dont-lie` |

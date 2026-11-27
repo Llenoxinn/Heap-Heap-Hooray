@@ -93,3 +93,11 @@ g++ -std=c++17 -Wall -Wextra heaps-dont-lie/easy/01-check-if-array-is-heap.cpp -
 g++ -std=c++17 -Wall -Wextra heaps-dont-lie/easy/01-check-if-array-is-heap-array.cpp -o check_raw.exe
 .\check_raw.exe
 ```
+
+---
+
+## Companion Resources
+
+- **Repository Root:** [`Heap-Heap-Hooray`](../README.md) · [`heapNotes.md`](../heapNotes.md)
+- **Coursework Hub:** [`Data-Structures-Machine-Problems`](https://github.com/Llenoxinn/Data-Structures-Machine-Problems) (pairs with [`MP 13: Min-Heap Array Validator`](https://github.com/Llenoxinn/Data-Structures-Machine-Problems/tree/main/MP%2013))
+- **Next Playbook:** [`HashbyHash / hashuh`](https://github.com/Llenoxinn/HashbyHash/tree/main/hashuh) — Hashing & Hash Table DSA/LeetCode Playbook
